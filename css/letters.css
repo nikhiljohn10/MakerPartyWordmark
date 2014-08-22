@@ -3,7 +3,7 @@
 }
 
 .text{
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .letter-container{
@@ -17,33 +17,33 @@
 
 .letter{
 	background-color: #00B0B7;
-	height: 100px;
-	width: 25px;
+	height: 80px;
+	width: 20px;
 	
 }
 
 .parallelogram-letter{
 	display: inline-block;
-	width: 25px;
+	width: 20px;
 	-webkit-transform: skew(15deg); 
 	-moz-transform: skew(15deg); 
 	-o-transform: skew(15deg);
 }
 
 .parallelogram-letter-inv{
-	width: 25px;
-	-webkit-transform: skew(-20deg); 
-	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);
+	width: 20px;
+	-webkit-transform: skew(-15deg); 
+	-moz-transform: skew(-15deg); 
+	-o-transform: skew(-15deg);
 }
 
 .horizontal-letter{
 	height: 20px;
-	width: 60px;
+	width: 45px;
 }
 
 .yellow .circuar-letter{
-	border: 20px solid #FFE600;
+	border: 17px solid #FFE600;
 	border-left-color: transparent;
 	background:transparent;
 }
@@ -52,8 +52,8 @@
 	background: transparent; 
 	border: 20px solid #00B0B7;
 	border-left-color: transparent;
-	height: 20px; 
-	width: 30px; 
+	height: 16px; 
+	width: 32px; 
 	-moz-border-radius: 50px; 
 	-webkit-border-radius: 50px; 
 	border-radius: 50px;
@@ -61,29 +61,50 @@
 
 /* Letter Specific Styles */
 
+.M2{
+	width:16px;
+}
+
 .M2, .A1{
 	border-right: 3px solid #FFF;
 	z-index: 1;
+}
+
+.M3{
+	width:16px; margin-left:5px;
+	transform: skew(-15deg);
+	-moz-transform: skew(-15deg); 
+	-o-transform: skew(-15deg);
+	-webkit-transform: skew(-15deg); 
+}
+
+.M4{
+	margin-left: 2px;
 }
 
 .yellow .M2, .yellow .A1{
 	border-right: 3px solid #00B0B7;
 }
 
+.A2{
+	margin-left: 10px;
+}
+
 .A3{
-	bottom: 15;
-	left: 0;
+	bottom: 17px;
+	left: -2px;
 	position: absolute;
 }
 
 .K{
 	width: 60px;
+	margin-left:20px;
 }
 
 .K2{
-	bottom: 35px;
-	height: 65px;
-	left: 25px;
+	bottom: 30px;
+	height: 50px;
+	left: 27px;
 	position: absolute;
 	-moz-transform: skew(-35deg); 
 	-o-transform: skew(-35deg);
@@ -95,27 +116,28 @@
 	height: 50px;
 	left: 30px;
 	position: absolute;
-	-webkit-transform: skew(35deg); 
-	-moz-transform: skew(35deg); 
-	-o-transform: skew(35deg);
+	-webkit-transform: skew(30deg); 
+	-moz-transform: skew(30deg); 
+	-o-transform: skew(30deg);
 }
 
 .E{
-	width: 55px;
+	width: 42px;
+	margin-left:12px;
 }
 
 .E2, .E3, .E4{
 	left: 0px;
 	position: absolute;
-	top: 0;
+	top: -1;
 }
 
 .E3{
-	top: 40px;
+	top: 29px;
 }
 
 .E4{
-	top: 80px;
+	top: 60px;
 }
 
 .R{
@@ -127,7 +149,7 @@
 	border-right: 3px solid #FFF;
 	left:0;
 	position: absolute;
-	top: 0;
+	top: 20px;
 	z-index: 1;
 }
 
@@ -136,15 +158,15 @@
 }
 
 .R2{
-	left: -5;
+	left: -8px;
 	position: absolute;
-	top: 0;
+	top: 20px;
 }
 
 .R3{
 	bottom: 0px;
 	height: 45px;
-	left: 35px;
+	left: 33px;
 	position: absolute;
 	-webkit-transform: skew(30deg); 
 	-moz-transform: skew(30deg); 
@@ -169,7 +191,7 @@
 }
 
 .P2{
-	left: -5;
+	left: -8px;
 	position: absolute;
 	top: 0;
 }
@@ -183,7 +205,8 @@
 	left: 0;
 	position: absolute;
 	top: 0;
-	width: 70px;
+	width: 62px;
+	height: 16px;
 }
 
 .T2{
@@ -197,20 +220,20 @@
 }
 
 .Y1{
-	height:60px; 
-	left: 5px;
+	height:50px; 
+	left: -8px;
 	position: absolute;
-	top: 0;
+	top: -1px;
 	-webkit-transform: skew(30deg); 
 	-moz-transform: skew(25deg); 
 	-o-transform: skew(30deg);
 }
 
 .Y2{
-	height:60px; 
+	height:50px; 
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 26px;
+	top: -1px;
 	-webkit-transform: skew(-30deg); 
 	-moz-transform: skew(-25deg); 
 	-o-transform: skew(-30deg);
@@ -222,8 +245,8 @@
 }
 
 .Y3{
-	bottom: 0;
-	height: 40px;
-	left: 21px;
+	bottom: 21px;
+	height: 30px;
+	left: 3px;
 	position: absolute;
 }

@@ -3,20 +3,28 @@
 	width: 560px;
 }
 .hexagon .top{
-	border-bottom: 180px solid #00B0B7;
+	border-bottom: 165px solid #00B0B7;
 	border-left: 280px solid transparent;
 	border-right: 280px solid transparent;
 	width: 0;
 
 }
 .hexagon .bottom{
-	border-top: 180px solid #00B0B7;
+	border-top: 165px solid #00B0B7;
 	border-left: 280px solid transparent;
 	border-right: 280px solid transparent;
 	width: 0;
 }
+.hexagon .bottom .pointer{
+	border-top: 165px solid #00B0B7;
+	border-left: 0px solid transparent;
+	border-right: 235px solid transparent;
+	width: 0;
+	margin-left: -192px;
+	margin-top: -165px;
+}
 .hexagon .center{	
 	background-color: #00B0B7;
-	height: 240px;
+	height: 320px;
 	width: 560px;
 }
