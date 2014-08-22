@@ -86,6 +86,14 @@
 	border-right: 3px solid #00B0B7;
 }
 
+.wordmark-wrapper:first-child .A,.wordmark:first-child .A{
+  margin-left: 18px;
+}
+
+.text:last-child .A{
+  top: -21px;
+}
+
 .A2{
 	margin-left: 10px;
 }
@@ -143,6 +151,11 @@
 .R{
 	height: 100px;
 	width: 50px;
+}
+
+.text:last-child .R{
+  top: -21px;
+  margin-left: 20px;
 }
 
 .R1{
